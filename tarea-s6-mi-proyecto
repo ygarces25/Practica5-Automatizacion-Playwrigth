@@ -1,0 +1,33 @@
+```markdown
+# Tarea S6 — Sumé un test de registro a mi proyecto
+
+## El test nuevo
+
+- CF1 - Registrar con datos válidos
+- N1 - Enviar formulario con campo nombre vacío
+
+## Mi validación línea por línea
+- ¿Cada acción tiene `await`?  → Sí / No (¿cuál faltaba?)
+
+   R = Si
+
+- ¿Los selectores son semánticos o frágiles?  → ...
+
+   R = Semanticos
+
+- ¿Los datos de prueba tienen sentido para el negocio?  → ...
+
+  R = Si
+
+## El experimento del await
+En una o dos líneas: ¿qué pasaría con este test si le saco los `await`?
+
+El test va a fallar por que se van a disparar todas las órdenes a la vez,es decir, Playwright no va a esperar a que termine una acción para empezar la siguiente.
+
+## UNA cosa que aporté yo y la IA no sabía
+(Un dato de negocio, un caso que faltaba, una mejor opción de selector...)
+
+En este caso no hice ningun aporte al analisis de la IA sobre el proyecto ya que a nivel de dato de negocio, numeros de casos y selectores estaba correcto.
+
+
+```
